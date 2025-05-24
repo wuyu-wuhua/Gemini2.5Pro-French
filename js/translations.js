@@ -8,7 +8,7 @@ const translations = {
         "nav-capabilities": "Capacités",
         "nav-reviews": "Avis",
         "main-title": "Gemini 2.5 Pro Français",
-        
+    
         // 侧边栏菜单
         "menu-login": "Cliquez pour vous connecter",
         "menu-chat": "Chat",
@@ -17,7 +17,7 @@ const translations = {
         "menu-capabilities": "Capacités",
         "menu-performance": "Performance",
         "menu-presets": "Préréglages",
-        
+    
         // 对话页面
         "welcome-message": "Bonjour ! Je suis Gemini 2.5 Pro, que puis-je faire pour vous ?",
         "input-placeholder": "Entrez une question...",
@@ -33,7 +33,7 @@ const translations = {
         "scenario-social": "Marketing des médias",
         "scenario-scriptwriting-title": "Scénarios pour films et séries",
         "scenario-scriptwriting-desc": "Aide à la création de scénarios",
-        
+    
         // 能力介绍页面
         "performance-title": "Performance",
         "mmlu-desc": "Dans le test multitâche de compréhension linguistique, Gemini 2.5 Pro a obtenu 90.0%, ce qui dépasse le niveau d'un spécialiste.",
@@ -64,17 +64,11 @@ const translations = {
         "table-knowledge": "Mise à jour des connaissances",
         "table-realtime": "Année 2024",
         "table-current": "Mis à jour jusqu'à",
-        
+    
         // 预设提示
         "presets-title": "Préréglages",
         "copyrightText": "Contenu créé par l'IA, l'exactitude n'est pas garantie, à titre de référence uniquement",
-        
-        // 页脚
-        "privacyPolicy": "Politique de protection des données personnelles",
-        "copyrightText": "Contenu créé par l'IA, l'exactitude n'est pas garantie, à titre de référence uniquement",
-        "contactUs": "Contactez-nous",
-        "icpRecord": "渝ICP备2025053179号",
-        
+    
         // 用户评价页面
         "user-reviews": "Avis réels des utilisateurs",
         "filter-all": "Toutes les évaluations",
@@ -116,7 +110,7 @@ const translations = {
         "review-5": "Dans le domaine de l'analyse visuelle des images médicales, Gemini 2.5 Pro s'est très bien comporté. Il peut reconnaître les caractéristiques clés des radiographies et des tomodensitogrammes et fournir des suggestions d'analyse préliminaires. Bien qu'il ne puisse pas remplacer un diagnostic professionnel, en tant qu'outil auxiliaire, sa précision et ses détails sont impressionnants.",
         "tag-image-analysis": "Analyse d'images",
         "tag-design": "Aide à la conception",
-        "tag-creative": "Suggestions créatives",
+        "tag-creative": "Suggestions créatives", // Note: "tag-creative" was used before, this one is for "Creative suggestions"
         "reviewer-zhou": "C'est un petit biscuit.",
         "tag-medical": "Images médicales",
         "tag-analysis": "Analyse professionnelle",
@@ -126,7 +120,7 @@ const translations = {
         "rating-understanding": "Compréhension",
         "rating-image": "Traitement d'images",
         "rating-speed": "Réactivité",
-        "rating-creative": "Créativité",
+        "rating-creative": "Créativité", // Note: "rating-creative" and "tag-creative" used
         "review-text-4": "Gemini 2.5 Pro a considérablement amélioré mon flux de travail. Sa capacité à comprendre le contexte et à fournir des informations pertinentes est exceptionnelle.",
         "reviewer-name-4": "Ingénieur logiciel - Alex P.",
         "tag-workflow": "Flux de travail",
@@ -141,7 +135,7 @@ const translations = {
         "tag-image-processing": "Traitement d'images",
         "tag-photography": "Photographie",
         "rating-overall": "Note globale",
-
+    
         //个人信息保护规则
         "privacyPolicyPageTitle": "Politique de protection des données personnelles",
         "privacyPolicyIntro": "Bienvenue sur Gemini 2.5 Pro ! Nous attachons une grande importance à votre vie privée et à la protection de vos données personnelles. Cette Politique de protection des données personnelles (ci-après dénommée \"Politique\") a pour but d'expliquer comment nous collectons, utilisons, stockons, partageons et protégeons vos données personnelles, ainsi que la manière dont vous pouvez gérer vos données personnelles. Veuillez lire attentivement et comprendre pleinement cette politique avant d'utiliser nos services.",
@@ -184,11 +178,7 @@ const translations = {
         "privacyPolicyContactDesc": "Si vous avez des questions, des suggestions ou des commentaires concernant cette politique, vous pouvez nous contacter à l'adresse suivante : ytsgabcde37@2925.com. Nous répondrons à votre demande dans un délai raisonnable.",
         "privacyPolicyLastUpdated": "Dernière mise à jour : 22 mai 2025",
         "backToHomeFromPrivacy": "Retour à l'accueil",
-        
-        
-        
-        
-        
+    
         // New Review 8 (overall 10th review)
         "reviewer-name-8": "Étudiant Li",
         "reviewer-ma": "Cheval Indomptable",
@@ -197,133 +187,123 @@ const translations = {
         "tag-student-friendly": "Adapté aux étudiants",
         "tag-ai-learning": "Apprentissage par IA",
         "tag-ai-tool": "Outil IA",
-        
+    
         // 页脚
-        "footer-text": "Этот сайт предназначен только для демонстрационных целей",
-
+        "footer-text": "Ce site est uniquement à des fins de démonstration",
+    
         // Sub-prompts for scenario buttons
-        "subprompt-writing-1": "Напишите статью о этике искусственного интеллекта, рассматривая его потенциальные риски и социальные обязательства.",
-        "subprompt-writing-2": "Помогите мне составить сюжет научно-фантастического рассказа о параллельных вселенных, включая основные персонажи и центральный конфликт.",
-        "subprompt-writing-3": "Перепишите эту сложную академическую статью в более простую и понятную для широкой аудитории научно-популярную статью.",
-        "subprompt-learning-1": "Объясните, что такое блокчейн, и приведите три практических примера его применения.",
-        "subprompt-learning-2": "Объясните основы фотосинтеза и его важность для экосистемы Земли.",
-        "subprompt-learning-3": "Объясните концепцию эффекта бабочки и приведите примеры его проявления в реальной жизни.",
-        "subprompt-coding-1": "Напишите функцию на Python, которая реализует алгоритм быстрой сортировки, и добавьте соответствующие комментарии.",
-        "subprompt-coding-2": "Объясните модель асинхронного программирования в JavaScript, особенно использование async/await и его преимущества.",
-        "subprompt-coding-3": "Как оптимизировать этот SQL-запрос для повышения его производительности на больших наборах данных? SELECT ... FROM ... WHERE ... GROUP BY ...",
-        "subprompt-travel-1": "Рекомендуйте три доступных для семейного отдыха места в России, и объясните, почему они подходят для этого.",
-        "subprompt-travel-2": "Составьте подробный план поездки на семь дней по Франции, включая транспортные и жилье.",
-        "subprompt-travel-3": "Какие важные моменты я должен учитывать при путешествии по Южно-Восточной Азии самостоятельно? Какие культурные и социальные нормы я должен знать?",
-        "subprompt-scriptwriting-1": "Помогите мне разработать план сценария фильма-антиутопии.",
-        "subprompt-scriptwriting-2": "Создайте план сценария для комедийного фильма о древнем Китае.",
-        "subprompt-scriptwriting-3": "Как можно развить сюжет этого триллера, чтобы создать больше неожиданных поворотов и поддержать напряжение для зрителей?",
-        "subprompt-summary-1": "Сделайте краткое изложение основных тезисов и доказательств в этой статье о глобальном изменении климата.",
-        "subprompt-summary-2": "Извлеките ключевые данные о доходах, прибыли и росте в этом отчете компании за год.",
-        "subprompt-summary-3": "Сжато изложите основные идеи этой научно-популярной книги в кратком изложении объемом около 500 слов.。",
-        "subprompt-fiction-1": "Напишите начало детективной истории, которая происходит в киберпанковском городе будущего, представив таинственного клиента и улики, ведущие к делу.",
-        "subprompt-fiction-2": "Создайте фэнтезийный магический мир под названием «Эридония», включающий уникальные расы, магические системы и географические условия.",
-        "subprompt-fiction-3": "描写一个年轻探险家在古老神庙中意外唤醒守护神兽的紧张刺激场景。",
-        "subprompt-ml-1": "解释深度学习中卷积神经网络（CNN）的工作原理及其在图像识别领域的应用。",
-        "subprompt-ml-2": "Что такое естественный язык обработки (NLP)? Перечислите три распространенных применения NLP в повседневной жизни.",
-        "subprompt-ml-3": "Как оценить производительность классификационного машинного обучения? Пожалуйста, укажите по крайней мере три показателя производительности и их значение.",
-        "subprompt-social-1": "Напишите три разных по стилю и привлекательности промо-текста для бренда новой экологической кофейной компании.",
-        "subprompt-social-2": "Разработайте идею для вирусной игры на抖音, которая станет популярной среди Z-поколения. Используйте текущие тренды.",
-        "subprompt-social-3": "Как эффективно повысить уровень подписок и активность пользователей в официальном аккаунте компании B2B в WeChat? ",
-        "subprompt-tti-1": "Создайте изображение в стиле реализма: большая золотая собака спит под открытым небом, а на деревьях распускаются цветы.",
-        "subprompt-tti-2": "Создайте изображение в стиле парового панка: огромный бронзовый механический осьминог поднимается по старинной башне.",
-        "subprompt-tti-3": "Создайте изображение на основе описания: 'Одинокий астронавт стоит на красной планете, смотря вдаль на двойной синий солнце'.",
-        "subprompt-iti-1": "Превратите это изображение в стиль Японского фусига.",
-        "subprompt-iti-2": "Добавьте очки для пилота на этом изображении человека.",
-        "subprompt-iti-3": "Увеличьте насыщенность цвета этого фотографии.",
-        "subprompt-img-analyze-detail-1": "Анализируйте это изображение, какие слова могли быть использованы для его создания?",
-        "subprompt-img-analyze-detail-2": "Расскажите мне, какие слова были использованы для создания этого изображения.",
-        "subprompt-img-analyze-detail-3": "Если использовать AI для создания этого изображения, какие слова могли быть использованы?",
-
+        "subprompt-writing-1": "Rédigez un article sur l'éthique de l'intelligence artificielle, en examinant ses risques potentiels et ses responsabilités sociales.",
+        "subprompt-writing-2": "Aidez-moi à créer une intrigue pour une nouvelle de science-fiction sur des univers parallèles, incluant les personnages principaux et le conflit central.",
+        "subprompt-writing-3": "Réécrivez cet article académique complexe en un article de vulgarisation scientifique plus simple et compréhensible pour un large public.",
+        "subprompt-learning-1": "Expliquez ce qu'est la blockchain et donnez trois exemples pratiques de son application.",
+        "subprompt-learning-2": "Expliquez les bases de la photosynthèse et son importance pour l'écosystème terrestre.",
+        "subprompt-learning-3": "Expliquez le concept de l'effet papillon et donnez des exemples de sa manifestation dans la vie réelle.",
+        "subprompt-coding-1": "Écrivez une fonction en Python qui implémente l'algorithme de tri rapide, et ajoutez des commentaires appropriés.",
+        "subprompt-coding-2": "Expliquez le modèle de programmation asynchrone en JavaScript, en particulier l'utilisation d'async/await et ses avantages.",
+        "subprompt-coding-3": "Comment optimiser cette requête SQL pour améliorer ses performances sur de grands ensembles de données ? SELECT ... FROM ... WHERE ... GROUP BY ...",
+        "subprompt-travel-1": "Recommandez trois destinations de vacances familiales abordables en Russie, et expliquez pourquoi elles conviennent.",
+        "subprompt-travel-2": "Élaborez un itinéraire détaillé pour un voyage de sept jours en France, incluant le transport et l'hébergement.",
+        "subprompt-travel-3": "Quels points importants dois-je prendre en compte lors d'un voyage en solo en Asie du Sud-Est ? Quelles normes culturelles et sociales dois-je connaître ?\",",
+        "subprompt-scriptwriting-1": "Aidez-moi à développer le plan d'un scénario de film dystopique.",
+        "subprompt-scriptwriting-2": "Créez le plan d'un scénario pour un film comique sur la Chine ancienne.",
+        "subprompt-scriptwriting-3": "Comment développer l'intrigue de ce thriller pour créer plus de rebondissements inattendus et maintenir le suspense pour le public ?",
+        "subprompt-summary-1": "Faites un bref résumé des principaux arguments et preuves de cet article sur le changement climatique mondial.",
+        "subprompt-summary-2": "Extrayez les données clés sur les revenus, les bénéfices et la croissance de ce rapport annuel d'entreprise.",
+        "subprompt-summary-3": "Résumez de manière concise les idées principales de ce livre de vulgarisation scientifique en un résumé d'environ 500 mots.",
+        "subprompt-fiction-1": "Écrivez le début d'une histoire policière se déroulant dans une ville cyberpunk futuriste, présentant un client mystérieux et des indices menant à l'affaire.",
+        "subprompt-fiction-2": "Créez un monde magique fantastique nommé 'Eridonia', comprenant des races uniques, des systèmes magiques et des conditions géographiques.",
+        "subprompt-fiction-3": "Décrivez une scène tendue et excitante où un jeune explorateur réveille accidentellement une bête gardienne dans un temple ancien.",
+        "subprompt-ml-1": "Expliquez le fonctionnement des réseaux de neurones convolutifs (CNN) en apprentissage profond et leurs applications dans le domaine de la reconnaissance d'images.",
+        "subprompt-ml-2": "Qu'est-ce que le traitement du langage naturel (NLP) ? Énumérez trois applications courantes du NLP dans la vie quotidienne.",
+        "subprompt-ml-3": "Comment évaluer les performances d'un modèle d'apprentissage automatique de classification ? Veuillez indiquer au moins trois indicateurs de performance et leur signification.",
+        "subprompt-social-1": "Rédigez trois textes promotionnels de styles différents et attrayants pour une nouvelle marque de café écologique.",
+        "subprompt-social-2": "Développez une idée de jeu viral sur TikTok qui deviendra populaire auprès de la génération Z. Utilisez les tendances actuelles.",
+        "subprompt-social-3": "Comment augmenter efficacement le taux d'abonnement et l'activité des utilisateurs sur le compte officiel WeChat d'une entreprise B2B ?",
+        "subprompt-tti-1": "Créez une image de style réaliste : un grand chien doré dort à ciel ouvert, et des fleurs s'épanouissent sur les arbres.",
+        "subprompt-tti-2": "Créez une image de style steampunk : une énorme pieuvre mécanique en bronze grimpe sur une ancienne tour.",
+        "subprompt-tti-3": "Créez une image basée sur la description : 'Un astronaute solitaire se tient sur une planète rouge, regardant au loin un double soleil bleu'.",
+        "subprompt-iti-1": "Transformez cette image dans le style Fushigi Japonais.",
+        "subprompt-iti-2": "Ajoutez des lunettes de pilote à cette image d'une personne.",
+        "subprompt-iti-3": "Augmentez la saturation des couleurs de cette photographie.",
+        "subprompt-img-analyze-detail-1": "Analysez cette image, quels mots auraient pu être utilisés pour la créer ?",
+        "subprompt-img-analyze-detail-2": "Dites-moi quels mots ont été utilisés pour créer cette image.",
+        "subprompt-img-analyze-detail-3": "Si l'IA était utilisée pour créer cette image, quels mots auraient pu être utilisés ?",
+    
         // 9th Scenario Button Placeholder
-        "scenario-placeholder": "Пожалуйста, подождите",
-
-        // Scenario Descriptions - ZH
-        "scenario-writing-desc": "Профессиональный контент, один клик",
-        "scenario-learning-desc": "Ответы на вопросы, эффективное обучение",
-        "scenario-coding-desc": "Умное программирование, повышение эффективности",
-        "scenario-travel-desc": "Туры, легкое путешествие",
-        "scenario-image-desc": "Взгляд на изображение, извлечение информации",
-        "scenario-summary-desc": "Извлечение ключевых моментов, быстрое понимание",
-        "scenario-fiction-desc": "Изобретательный, построение будущего",
-        "scenario-ml-desc": "Модель построения, данные наблюдения",
-        "scenario-social-desc": "Большие хиты, управление трафиком",
-        "scenario-scriptwriting-desc": "AI в помощь, создание захватывающих историй",
-
-        "scenario-tti-title": "Текст в изображение",
-        "scenario-tti-desc": "Создание изображений на основе текстовых описаний",
-        "scenario-iti-title": "Изображение в изображение",
-        "scenario-iti-desc": "Создание изображений на основе существующих изображений",
-        "scenario-img-analyze-detail-title": "Изображение подсказка",
-        "scenario-img-analyze-detail-desc": "Глубокое понимание и анализ содержания изображения",
-
-        "subprompt-tti-1": "Создайте изображение 'заката в будущем городе'.",
-        "subprompt-tti-2": "Нарисуйте 'кота в шляпе'.",
-        "subprompt-tti-3": "Создайте изображение в стиле сибири.",
-        "subprompt-iti-1": "Превратите это изображение в стиль Ван Гога.",
-        "subprompt-iti-2": "Изменить прическу человека на этой фотографии.",
-        "subprompt-iti-3": "Увеличьте насыщенность цвета этого фотографии.",
-        "subprompt-img-analyze-detail-1": "Анализируйте это изображение, какие слова могли быть использованы для его создания?",
-        "subprompt-img-analyze-detail-2": "Расскажите мне, какие слова были использованы для создания этого изображения.",
-        "subprompt-img-analyze-detail-3": "Если использовать AI для создания этого изображения, какие слова могли быть использованы?",
-
-        "uploadImageTooltip": "Загрузить изображение",
-
+        "scenario-placeholder": "Veuillez patienter",
+    
+        // Scenario Descriptions
+        "scenario-writing-desc": "Contenu professionnel, en un clic",
+        "scenario-learning-desc": "Réponses aux questions, apprentissage efficace",
+        "scenario-coding-desc": "Programmation intelligente, amélioration de l'efficacité",
+        "scenario-travel-desc": "Circuits, voyage facile",
+        "scenario-image-desc": "Regard sur l'image, extraction d'informations",
+        "scenario-summary-desc": "Extraction des points clés, compréhension rapide",
+        "scenario-fiction-desc": "Inventif, construction du futur",
+        "scenario-ml-desc": "Construction de modèles, observation des données",
+        "scenario-social-desc": "Grands succès, gestion du trafic",
+        "scenario-scriptwriting-desc": "L'IA pour aider, créer des histoires captivantes",
+    
+        "scenario-tti-title": "Texte en image",
+        "scenario-tti-desc": "Création d'images à partir de descriptions textuelles",
+        "scenario-iti-title": "Image en image",
+        "scenario-iti-desc": "Création d'images à partir d'images existantes",
+        "scenario-img-analyze-detail-title": "Suggestion d'image",
+        "scenario-img-analyze-detail-desc": "Compréhension et analyse approfondies du contenu de l'image",
+    
+        "uploadImageTooltip": "Télécharger une image",
+    
         // 新增：为酒肆馨月和心心子的评价提供更完善的翻译
-        "reviewer-scriptwriter-li": "Студент Ли",
-        "tag-scriptwriting": "Сценарий",
-        "tag-plot-generation": "Сюжет",
-        "tag-dialogue-writing": "Диалог",
-        "review-script-1": "Gemini в сценарии - это мой надежный помощник! Особенно когда мне нужно создать сложные внутренние сцены или напряженные сюжетные линии, он всегда предлагает отличные идеи и советы по написанию. Он помог мне сделать обычного персонажа более интересным.",
-        "reviewer-videographer-sun": "Студент Сун",
-        "tag-short-video": "Короткие видео",
-        "tag-creative-script": "Творческий сценарий",
-        "tag-script-optimization": "Оптимизация сценария",
-        "review-script-2": "Использование Gemini для создания сценария короткого видео - это просто круто! Я часто использую его для brainstorming шуток и сюжетных поворотов. Он генерирует идеи быстро и оригинально, что помогает мне удерживать внимание зрителей и повышает взаимодействие.",
-
+        "reviewer-scriptwriter-li": "Étudiant Li",
+        "tag-scriptwriting": "Scénario",
+        "tag-plot-generation": "Intrigue",
+        "tag-dialogue-writing": "Dialogue",
+        "review-script-1": "Gemini pour l'écriture de scénarios est mon assistant fiable ! Surtout quand j'ai besoin de créer des scènes internes complexes ou des intrigues tendues, il propose toujours d'excellentes idées et des conseils d'écriture. Il m'a aidé à rendre un personnage ordinaire plus intéressant.",
+        "reviewer-videographer-sun": "Étudiant Sun",
+        "tag-short-video": "Vidéos courtes",
+        "tag-creative-script": "Scénario créatif",
+        "tag-script-optimization": "Optimisation du scénario",
+        "review-script-2": "Utiliser Gemini pour créer un scénario de courte vidéo, c'est tout simplement génial ! Je l'utilise souvent pour brainstormer des blagues et des rebondissements. Il génère des idées rapidement et de manière originale, ce qui m'aide à capter l'attention des spectateurs et augmente l'interaction.",
+    
         // 登录/注册页面
-        "loginTitle": "Вход - Gemini 2.5 Pro",
-        "loginPageTitle": "Вход",
-        "usernamePlaceholder": "Имя пользователя/эл. почта",
-        "passwordPlaceholder": "Пароль",
-        "loginButtonText": "Вход",
-        "loginWithGoogle": "Использовать Google", // Will be superseded by continueWithGoogle for the button text
-        "continueWithGoogle": "Использовать Google", // New key for the button text
-        "orSeparator": "или",
-        "createAccountPrompt": "Нет учетной записи? Зарегистрироваться",
-        "backToHome": "На главную",
-        "registerTitle": "Регистрация - Gemini 2.5 Pro",
-        "registerPageTitle": "Создать учетную запись",
-        "usernameRegPlaceholder": "Имя пользователя",
-        "emailRegPlaceholder": "Эл. почта",
-        "passwordRegPlaceholder": "Пароль (минимум 6 символов)",
-        "confirmPasswordPlaceholder": "Подтвердить пароль",
-        "registerButtonText": "Регистрация",
-        "alreadyAccountPrompt": "Уже есть учетная запись? Войти",
-        "htmlTitle": "Gemini 2.5 Pro русский | Быстрый доступ и загрузка моделей AI",
-
-        // Profile Page Specific (already added in previous steps, ensure they are here)
-        "profilePageTitle": "Информация о пользователе - Gemini 2.5 Pro",
-        "userProfileTitle": "Информация о пользователе",
-        "profileLabelName": "Имя пользователя:",
-        "profileLabelEmail": "Эл. почта:",
-        "profileLabelGoogleID": "Google ID:",
-        "profileBackToHome": "На главную",
-
-        // User Dropdown Menu Items (NEW)
-        "profileLabelViewInfo": "Просмотр информации о пользователе",
-        "profileLabelLogout": "Выйти",
-
-        "all-history-cleared-message": "Все истории очищены.",
-        "clear-all-history-tooltip": "Очистить все истории",
-
-        'login-required-alert': 'Пожалуйста, войдите, чтобы начать диалог.',
-        'untitled-chat': 'Без названия чата',
-        'history-title': 'История чата',
+        "loginTitle": "Connexion - Gemini 2.5 Pro",
+        "loginPageTitle": "Connexion",
+        "usernamePlaceholder": "Nom d'utilisateur/E-mail",
+        "passwordPlaceholder": "Mot de passe",
+        "loginButtonText": "Connexion",
+        "loginWithGoogle": "Utiliser Google",
+        "continueWithGoogle": "Continuer avec Google",
+        "orSeparator": "ou",
+        "createAccountPrompt": "Pas de compte ? S'inscrire",
+        "backToHome": "Retour à l'accueil",
+        "registerTitle": "Inscription - Gemini 2.5 Pro",
+        "registerPageTitle": "Créer un compte",
+        "usernameRegPlaceholder": "Nom d'utilisateur",
+        "emailRegPlaceholder": "E-mail",
+        "passwordRegPlaceholder": "Mot de passe (minimum 6 caractères)",
+        "confirmPasswordPlaceholder": "Confirmer le mot de passe",
+        "registerButtonText": "S'inscrire",
+        "alreadyAccountPrompt": "Déjà un compte ? Se connecter",
+        "htmlTitle": "Gemini 2.5 Pro version française | Accès rapide et chargement de modèles d'IA",
+    
+        // Profile Page Specific
+        "profilePageTitle": "Informations utilisateur - Gemini 2.5 Pro",
+        "userProfileTitle": "Informations utilisateur",
+        "profileLabelName": "Nom d'utilisateur :",
+        "profileLabelEmail": "E-mail :",
+        "profileLabelGoogleID": "Google ID :",
+        "profileBackToHome": "Retour à l'accueil",
+    
+        // User Dropdown Menu Items
+        "profileLabelViewInfo": "Voir les informations utilisateur",
+        "profileLabelLogout": "Se déconnecter",
+    
+        "all-history-cleared-message": "Tout l'historique a été effacé.",
+        "clear-all-history-tooltip": "Effacer tout l'historique",
+    
+        'login-required-alert': 'Veuillez vous connecter pour commencer le dialogue.',
+        'untitled-chat': 'Chat sans titre',
+        'history-title': 'Historique des chats', // Assurez-vous que cette clé est ici et correcte
         "clear-history-confirm": "Êtes-vous sûr de vouloir effacer tout l'historique des chats ?",
         "export-chat": "Exporter le chat",
         "share-chat": "Partager le chat",
